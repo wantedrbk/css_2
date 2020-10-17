@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Krona One";
+    src: url("fonts/KronaOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+#website {
+    font-family: "Krona One";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: white;
+    background-color: #990909;
+    text-align: center;
+    width: 800px;
+    height: 30px;
+    margin: 0 auto;
+    padding: ce;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-image: radial-gradient(white 50% ,#990909);
+    border-image-slice: 1;
+}
+#photos {
+    margin: 10px 0 0 70px;
+}
+#guidance {
+    margin-top: 10px;
+    background-color: #7D0909;
+    width: 400px;
+    height: 450px;
+    float: left;
+    width: 20%;
+    display: inline-block;
+}
+figure {
+    display: inline-block; /* Выстраиваем по горизонтали */
+    background: black; /* Цвет фона */
+}
+figcaption {
+    margin-left: 55px;
+    color: white;
+    text-align: center;
+}
+
+span {
+    color:#E65A10;
+    font-size: 25px;
+    border-bottom: 1px solid transparent;
+    border-color: #E65A10;
+}
+
+#mainText {
+    color: white;
+    display: inline-block;
+    width:60%;
+}
+#title {
+    margin-top: 10px;
+    width: 400px;
+    height: 450px;
+    background: #E3DDDD;
+    width: 20%;
+    display: inline-block;
+    float: right;
+}
+p {
+    font-size: 23px;
+}
+
+
+.hr-shelf {
+    margin: -50px auto 10px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #8a8a8a;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 40%;
+}
